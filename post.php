@@ -5,7 +5,8 @@ $CURLERR = NULL;
         'content' => $_POST["content"] . " by " . $_POST["name"],
     );
 
-    $url = 'ここにURL';
+    $url = 'https://discord.com/api/webhooks/1131585974044991598/e0o80xlvJgWyU--MEo18MFNm74PaC5CFLc_vNaPe2hxVOrG1THE45tHdTwEXkgc-ke9b';
+    $url = 'https://discord.com/api/webhooks/1132441094848782417/GrLGyge0Q7d1UZpP20s106wFjru2BcG3r7mlN9GrRK9FwVsM8j-_EbI5CwAZtEQXK-za';
 
     $ch = curl_init($url);
 
